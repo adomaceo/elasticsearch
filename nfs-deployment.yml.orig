@@ -21,9 +21,9 @@ spec:
             - name: PROVISIONER_NAME
               value: nfs-devops/nfs
             - name: NFS_SERVER
-              value: nfs-devops.cl.cencosud.corp
+              value: xxx.xxx.xxx.xxx
             - name: NFS_PATH
-              value: /VOL_NFS_Devops/storageclass
+              value: /VOL_NFS_TEST/storageclass
       volumes:
         - name: nfs-client-root
           nfs:
